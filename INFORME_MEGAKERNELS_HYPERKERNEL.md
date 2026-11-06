@@ -30,9 +30,11 @@ A diferencia de la mayoría de sistemas centrados casi exclusivamente en LLMs, H
 
 Todo se ejecuta en un **único lanzamiento de kernel**. El sistema es capaz de generar kernels optimizados en menos de 50-60 minutos para varios dominios, utilizando relativamente poco código fuente por modelo (≈60-100 líneas).
 
-### 2.2 Actores clave y perfiles en X
-- **Hyperstition** — [@hyperstition_cc](https://x.com/hyperstition_cc) (cuenta oficial del laboratorio)
-- **Deven Pietrzak** — [@DevenPzak](https://x.com/DevenPzak) (figura principal asociada al anuncio y resultados de Hyperkernel)
+### 2.2 Actores clave y perfiles sociales
+- **Hyperstition** — X: [@hyperstition_cc](https://x.com/hyperstition_cc) (cuenta oficial del laboratorio)
+- **Deven Pietrzak** — X: [@DevenPzak](https://x.com/DevenPzak)
+
+**LinkedIn / Facebook / Instagram:** No se localizaron perfiles públicos verificados de LinkedIn, Facebook o Instagram asociados a Hyperstition o a Deven Pietrzak en el momento de esta investigación. La presencia pública se concentra principalmente en X.
 
 ### 2.3 Estado actual del repositorio
 - **URL:** https://github.com/Hyperstitioncc/Hyperkernel
@@ -76,8 +78,11 @@ Todo se ejecuta en un **único lanzamiento de kernel**. El sistema es capaz de g
 - Documentación: https://mirage-project.readthedocs.io/  
 - Papers: OSDI 2025 (Mirage) y OSDI 2026 (MPK)
 
-**Actores clave y perfiles en X**  
-- **Zhihao Jia** — [@JiaZhihao](https://x.com/JiaZhihao) (profesor en CMU, líder del proyecto Mirage / MPK)
+**Actores clave y perfiles sociales**  
+- **Zhihao Jia** (profesor CMU, líder de Mirage / MPK)  
+  - X: [@JiaZhihao](https://x.com/JiaZhihao)  
+  - LinkedIn: [linkedin.com/in/jiazhihao](https://www.linkedin.com/in/jiazhihao)  
+  - Facebook / Instagram: No se localizaron perfiles públicos verificados.
 
 **Descripción**  
 Compilador y runtime que transforma automáticamente la inferencia de LLMs (incluyendo multi-GPU) en un único megakernel. Introduce representación a nivel de SM, software pipelining entre operadores, solapamiento fino de compute y comunicación, y scheduling descentralizado dentro del kernel persistente.
@@ -102,9 +107,13 @@ Compilador y runtime que transforma automáticamente la inferencia de LLMs (incl
 - Repositorio: https://github.com/RightNow-AI/AutoMegaKernel  
 - Paper: https://arxiv.org/abs/2606.09682
 
-**Actores clave y perfiles en X**  
-- **Jaber Jaber** — [@Akashi203](https://x.com/Akashi203) (fundador de RightNow AI, autor principal de AutoMegaKernel)  
-- **RightNow AI** — [@rightnowai_co](https://x.com/rightnowai_co) (cuenta oficial de la empresa)
+**Actores clave y perfiles sociales**  
+- **Jaber Jaber** (fundador de RightNow AI, autor principal)  
+  - X: [@Akashi203](https://x.com/Akashi203)  
+  - LinkedIn: [linkedin.com/in/jaber-j-b65246234](https://jo.linkedin.com/in/jaber-j-b65246234)  
+  - Facebook / Instagram: No se localizaron perfiles públicos verificados.
+- **RightNow AI** — X: [@rightnowai_co](https://x.com/rightnowai_co)  
+  - LinkedIn de empresa: [linkedin.com/company/rightnowai](https://www.linkedin.com/company/rightnowai)
 
 **Descripción**  
 Harness de agente (compatible con Claude Code / Codex) que compila modelos de la familia Llama de Hugging Face en un único kernel cooperativo persistente. Incluye validación estática de schedules (deadlock-free y race-free), retargeting automático entre arquitecturas (sm_80 / sm_90 / sm_120) y un bucle de autoresearch que mejora el kernel de forma no supervisada.
@@ -128,9 +137,12 @@ Harness de agente (compatible con Claude Code / Codex) que compila modelos de la
 - Repositorio: https://github.com/HazyResearch/Megakernels  
 - Blog: Look Ma, No Bubbles! (Hazy Research)
 
-**Actores clave y perfiles en X**  
-- **Hazy Research** — [@HazyResearch](https://x.com/HazyResearch) (cuenta oficial del grupo de investigación de Stanford liderado por Chris Ré)  
-- **Stuart Sul** — [@stuart_sul](https://x.com/stuart_sul) (contribuidor clave en ThunderKittens y megakernels)
+**Actores clave y perfiles sociales**  
+- **Hazy Research** — X: [@HazyResearch](https://x.com/HazyResearch)  
+- **Stuart Sul** (contribuidor clave en ThunderKittens y megakernels)  
+  - X: [@stuart_sul](https://x.com/stuart_sul)  
+  - Sitio personal: [stuartsul.com](https://stuartsul.com) (enlaza a LinkedIn)  
+  - Facebook / Instagram: No se localizaron perfiles públicos verificados.
 
 **Descripción**  
 Implementaciones de referencia de megakernels de baja latencia (especialmente para Llama) usando el paradigma de “instruction interpreter” y ThunderKittens. Enfocados en eliminar burbujas de ejecución y maximizar residencia de CTAs.
@@ -155,9 +167,12 @@ Implementaciones de referencia de megakernels de baja latencia (especialmente pa
 - Documentación: https://docs.luminalai.com  
 - Blog: https://blog.luminal.com/p/compiling-models-to-megakernels
 
-**Actores clave y perfiles en X**  
-- **Luminal** — [@luminal_ai](https://x.com/luminal_ai) (cuenta oficial)  
-- **Joe Fioti** — [@joefioti](https://x.com/joefioti) (CEO y co-fundador de Luminal)
+**Actores clave y perfiles sociales**  
+- **Luminal** — X: [@luminal_ai](https://x.com/luminal_ai)  
+- **Joe Fioti** (CEO y co-fundador)  
+  - X: [@joefioti](https://x.com/joefioti)  
+  - LinkedIn: [linkedin.com/in/joe-fioti-24a986189](https://www.linkedin.com/in/joe-fioti-24a986189)  
+  - Facebook / Instagram: No se localizaron perfiles públicos verificados.
 
 **Descripción**  
 Compilador de inferencia de alto rendimiento escrito en Rust. Utiliza e-graphs (egglog), búsqueda genética de extracciones y generación de kernels fusionados / megakernels. Enfoque generalista orientado a maximizar rendimiento y minimizar costos de inferencia.
@@ -179,10 +194,11 @@ Compilador de inferencia de alto rendimiento escrito en Rust. Utiliza e-graphs (
 ### 3.5 ForgeMegakernel
 **Enlaces**  
 - Paper: https://arxiv.org/abs/2609.12379  
-- Proyecto relacionado: https://github.com/OpenBMB/ForgeKernel (self-evolving kernels, diferente pero del mismo ecosistema de “Forge”)
+- Proyecto relacionado: https://github.com/OpenBMB/ForgeKernel
 
 **Actores clave**  
-- Autores principales del paper (Lushan Li, Zhui Zhu, Xianglong Deng y colaboradores de Tsinghua University / ModelBest). Presencia pública limitada en X al momento de esta investigación.
+- Autores principales del paper (Lushan Li, Zhui Zhu, Xianglong Deng y colaboradores de Tsinghua University / ModelBest).  
+- Presencia pública limitada en X, LinkedIn, Facebook e Instagram al momento de esta investigación.
 
 **Descripción**  
 Framework que usa agentes de código + base de conocimiento de 10 hitos progresivos + oráculo de estados intermedios para generar megakernels de decode específicos por modelo. Reporta altos niveles de MBU (50.5–85.9 %) y speedups geométricos significativos sobre SGLang y compiladores de megakernels.
@@ -205,7 +221,8 @@ Framework que usa agentes de código + base de conocimiento de 10 hitos progresi
 - Paper: https://arxiv.org/abs/2605.11581
 
 **Actores clave**  
-- Equipo de Baidu (Wenxin Dong, Mingqing Hu, Guanghui Yu y colaboradores). Proyecto interno de producción; presencia pública limitada en X.
+- Equipo de Baidu (Wenxin Dong, Mingqing Hu, Guanghui Yu y colaboradores). Proyecto interno de producción.  
+- Presencia pública limitada en X, LinkedIn, Facebook e Instagram.
 
 **Descripción**  
 Sistema de Baidu orientado a GPUs Ada (L20). Usa modelo de restricciones de shared memory en 3D + splitting de dimensión K, búsqueda offline de DAGs con MLIR y un motor híbrido que integra el megakernel como plugin de TensorRT-LLM. Primer despliegue industrial conocido de megakernels en un sistema comercial de publicidad online.
@@ -280,4 +297,6 @@ En resumen: las técnicas de megakernel son **más relevantes**, no menos, cuand
 
 ---
 
-*Informe generado y estructurado a partir de la investigación completa realizada en noviembre de 2026. Todos los detalles de licencias, enlaces, ventajas, inconvenientes, estado de apertura y actores clave se han preservado.*
+*Informe generado y estructurado a partir de la investigación completa realizada en noviembre de 2026. Todos los detalles de licencias, enlaces, ventajas, inconvenientes, estado de apertura y actores clave (incluyendo perfiles sociales disponibles) se han preservado.*
+
+**Nota metodológica sobre redes sociales:** Se buscaron perfiles públicos de LinkedIn, Facebook e Instagram de todos los actores clave. La mayoría de estos investigadores y founders tienen presencia profesional principalmente en X (Twitter) y LinkedIn. No se localizaron perfiles públicos verificados de Facebook o Instagram asociados a su trabajo profesional en el momento de la investigación.
